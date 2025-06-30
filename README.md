@@ -1,1 +1,110 @@
-# deped_masterlist
+# DepEd School Masterlist Dashboard (S.Y. 2020-2021)
+## Project Overview
+
+This project presents a comprehensive visualization of the Department of Education (DepEd) Masterlist of schools for the School Year 2020-2021. The primary goal is to analyze and present key insights into the distribution and characteristics of educational institutions across the Philippines. By leveraging data cleaning techniques in Excel and visualization capabilities in Power BI, this dashboard provides an at-a-glance understanding of the educational landscape.
+
+## Data Source
+
+The dataset used is the official **DepEd Masterlist of Schools for S.Y. 2020-2021**. It was sourced directly from the Department of Education's official website.
+
+- **Source:** Department of Education (DepEd)
+    
+- **Link:** [Masterlist of Schools S.Y. 2020-2021](https://www.deped.gov.ph/wp-content/uploads/2021/06/SY-2020-2021-Masterlist-of-Schools-Address-only-1-1.pdf)
+    
+
+## Tools Used
+
+- **Microsoft Excel:** Utilized for the initial data preparation phase, including cleaning, validation, and structuring.
+    
+- **Microsoft Power BI:** Used for creating the interactive dashboard, data modeling, and visualization.
+    
+
+## Methodology
+
+The project was executed in two main stages:
+
+### 1. Data Preparation (Excel)
+
+The raw data from the DepEd masterlist was first processed in Microsoft Excel. The key activities in this stage included:
+
+- **Data Cleaning:** Handling missing values, correcting typographical errors, and standardizing naming conventions for regions, divisions, and other categorical data.
+    
+- **Data Validation:** Ensuring the accuracy and integrity of the data by checking for inconsistencies or anomalies.
+    
+- **Data Structuring:** Organizing the data into a clean, tabular format suitable for import into Power BI. Columns were formatted to their correct data types (e.g., text, numbers).
+    
+
+### 2. Data Visualization (Power BI)
+
+The cleaned dataset was imported into Power BI to build the dashboard. This involved:
+
+- **Data Modeling:** Establishing relationships between different data tables (if necessary).
+    
+- **DAX Calculations:** Creating new measures and calculated columns to derive insights, such as percentages for the distribution of schools by locale.
+    
+- **Dashboard Design:** Creating a series of charts and visuals to represent the data effectively. The final dashboard was designed to be user-friendly and insightful.
+    
+
+## Dashboard Overview & Key Insights
+
+The dashboard provides a multi-faceted view of the school data, focusing on geographical distribution and locale differences.
+
+### Overall Snapshot
+
+- **Total Schools:** The dashboard analyzes tens of thousands of schools across the country.
+    
+- **Total Divisions:** The data is organized into 221 school divisions.
+    
+
+### Regional Distribution of Schools
+
+The number of schools varies significantly across the regions.
+
+- **Region IV-A (CALABARZON)** has the highest number of schools, with 5,060.
+    
+- **Region III (Central Luzon)** follows with 3,660 schools.
+    
+- The
+    
+    **Cordillera Administrative Region (CAR)** has the lowest count among the listed regions, with 1,280 schools.
+    
+
+### Top Divisions by School Count
+
+The dashboard identifies the school divisions with the highest concentration of schools.
+
+- **Iloilo** leads all divisions with 1,054 schools.
+    
+- Other top divisions include
+    
+    **Cebu** (904) ,
+    
+    **Batangas** (826) ,
+    
+    **Bohol** (804) , and
+    
+    **Quezon** (773).
+    
+
+### Analysis of School Locale
+
+A significant finding is the distribution of schools based on their locale classification.
+
+- A majority of schools,
+    
+    **73.72%** (30,640), are situated in **Partially Urban** areas.
+    
+- **Urban** areas contain **22.1%** (9,180) of the schools.
+    
+- **Rural** areas account for the smallest portion, with **4.18%** (1,740) of schools.
+    
+
+### School Sector
+
+The dashboard also breaks down the schools by sector.
+
+- The vast majority of institutions are
+    
+    **Public** schools, numbering 29,840.
+    
+- **Private** schools number at 11,530.
